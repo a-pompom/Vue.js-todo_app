@@ -1,0 +1,15 @@
+//flex-box
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+@mixin flex-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin flex-right {
+    display: flex;
+    justify-content: flex-end;
+}
